@@ -1,0 +1,27 @@
+Cookiecutter-django
+===================
+
+This `cookiecutter <https://github.com/audreyr/cookiecutter>`_ template is designed for a `Django`_ project which will be pip installable.
+
+The idea is to have a very non-intrusive dependencies template.
+
+
+**Features**:
+
+ * Publishable on Pypi as a complete `Django`_ project (:code:`MANIFEST.in` included)
+ * A command line interface is provided (inspired by `Sentry <https://github.com/getsentry/sentry>`_)
+ * Manage Django settings with a sourced `local.py` file
+ * Provide a simple :code:`Makefile` with linting and tests commands
+ * `Pytest`_ integration with `Django`_
+ * Optionnal integrations like: `bumpversion`_, `docker-compose`_
+
+`Pytest`_ integration is not very intrusive for people who doesn't want it.
+You'll just need to remove it from :code:`setup.py` and remove `conftest.py` file.
+`Django`_ internal tests runner will run perfectly.
+
+Other integrations like `docker-compose`_ and `bumpversion`_ can be better, feedback and contributions are welcome.
+
+.. _Django: https://docs.djangoproject.com
+.. _Pytest: http://docs.pytest.org/en/latest/
+.. _docker-compose: https://docs.docker.com/compose/
+.. _bumpversion: https://github.com/peritus/bumpversion
