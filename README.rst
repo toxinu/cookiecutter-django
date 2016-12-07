@@ -21,7 +21,13 @@ You'll just need to remove it from :code:`setup.py` and remove `conftest.py` fil
 
 Other integrations like `docker-compose`_ and `bumpversion`_ can be better, feedback and contributions are welcome.
 
+There is a little helper with :code:`use_test_helpers` option which only add: `flake8`_, `libfaketime`_, `factory-boy`_ and `fake-factory`_ to :code:`dev` `extra_requires` group.
+
 .. _Django: https://docs.djangoproject.com
 .. _Pytest: http://docs.pytest.org/en/latest/
 .. _docker-compose: https://docs.docker.com/compose/
 .. _bumpversion: https://github.com/peritus/bumpversion
+.. _flake8: http://flake8.pycqa.org/en/latest/
+.. _libfaketime: https://github.com/simon-weber/python-libfaketime
+.. _factory-boy: https://factoryboy.readthedocs.io/en/latest/
+.. _fake-factory: https://factoryboy.readthedocs.io/en/latest/
