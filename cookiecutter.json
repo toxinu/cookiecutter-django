@@ -1,0 +1,17 @@
+{
+  "full_name": "Geoffrey Lehée",
+  "email": "contact@toxi.nu",
+  "github_username": "toxinu",
+  "project_name": "Django Boilerplate",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Django package.",
+  "project_url": "Not specified.",
+  "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "module_name": "{{ cookiecutter.project_name.lower().replace('-', '_').replace(' ', '_') }}",
+  "entrypoint_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "version": "0.1.0",
+  "license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "use_bumpversion": "y",
+  "use_docker_compose": "y",
+  "use_test_helpers": "y",
+  "year": 2016
+}
