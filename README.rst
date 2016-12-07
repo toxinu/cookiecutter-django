@@ -8,9 +8,9 @@ The idea is to have a very non-intrusive dependencies template.
 
 **Features**:
 
- * Publishable on Pypi as a complete `Django`_ project (:code:`MANIFEST.in` included)
+ * Publishable on `PyPI <https://pypi.org/>`_ as a `Django`_ project (:code:`MANIFEST.in` included)
  * A command line interface is provided (inspired by `Sentry <https://github.com/getsentry/sentry>`_)
- * Manage Django settings with a sourced `local.py` file
+ * Manage `Django`_ settings with a sourced :code:`local.py` file
  * Provide a simple :code:`Makefile` with linting and tests commands
  * `Pytest`_ integration with `Django`_
  * Optionnal integrations like: `bumpversion`_, `docker-compose`_
