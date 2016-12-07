@@ -30,4 +30,4 @@ There is a little helper with :code:`use_test_helpers` option which only add: `f
 .. _flake8: http://flake8.pycqa.org/en/latest/
 .. _libfaketime: https://github.com/simon-weber/python-libfaketime
 .. _factory-boy: https://factoryboy.readthedocs.io/en/latest/
-.. _fake-factory: https://factoryboy.readthedocs.io/en/latest/
+.. _fake-factory: https://faker.readthedocs.io/en/latest/
