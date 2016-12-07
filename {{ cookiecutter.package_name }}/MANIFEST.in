@@ -1,0 +1,5 @@
+include setup.py README.rst LICENSE
+recursive-include src/{{ cookiecutter.module_name }} *.txt
+recursive-include src/{{ cookiecutter.module_name }} *.html
+exclude src/{{ cookiecutter.module_name }}/settings/local.py
+global-exclude *~
