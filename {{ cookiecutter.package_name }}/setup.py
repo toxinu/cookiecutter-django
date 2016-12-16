@@ -46,7 +46,6 @@ setup(
     },
     extras_require={
         'dev': [
-            'pytest==3.0.5',
             {% if cookiecutter.use_bumpversion.lower() == 'y' %}'bumpversion==0.5.3',{% endif -%}
             {% if cookiecutter.use_docker_compose.lower() == 'y' %}'docker-compose==1.9.0',{% endif %}
         ],
