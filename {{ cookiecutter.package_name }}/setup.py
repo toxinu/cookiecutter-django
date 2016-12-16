@@ -52,6 +52,7 @@ setup(
         ],
         {%- if cookiecutter.use_test_helpers.lower() == 'y' %}
         'tests': [
+            'pytest==3.0.5',
             'flake8==3.2.1',
             'libfaketime==0.4.2',
             'factory-boy==2.7.0',
