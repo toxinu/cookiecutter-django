@@ -22,7 +22,7 @@ dependency_links = []
 
 requires = [
     'click==6.6',
-    'Django==1.10.4',
+    'Django==1.10.5',
 ]
 
 
